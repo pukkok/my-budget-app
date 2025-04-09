@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import SummaryCard from '../components/SummaryCard'
 
-export default function Home() {
+const Home = () => {
   const navigate = useNavigate()
 
   const income = 500000
@@ -23,3 +23,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home

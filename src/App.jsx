@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Calendar from './pages/Calendar'
 
-export default function App() {
+const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -10,3 +10,5 @@ export default function App() {
     </Routes>
   )
 }
+
+export default App
